@@ -34,7 +34,7 @@ Please contribute as much as you can
 
 ## Authors
 
-* **Struc Razvan** - *Programming* - [PurpleBooth](https://github.com/strucrazvan)
+* **Struc Razvan** - *Programming* - [Profile](https://github.com/strucrazvan)
 
 See also the list of [contributors](https://github.com/strucrazvan/crypto-parse/contributors) who participated in this project.
 
