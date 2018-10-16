@@ -1,7 +1,5 @@
 <?php
 require_once("IController.php");
-require_once("../domain/CoinCrawler.php");
-require_once("../domain/Coin.php");
 class CoinController implements IController {
 	private $coinObject;
 	public function __construct() {
