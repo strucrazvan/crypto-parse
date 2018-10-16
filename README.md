@@ -15,7 +15,7 @@ Crypto Coin crawler for getting data from CoinMarketCap.com, and in future other
 
 
 
-### Break down into end to end tests
+### How to use
 
 Explain what these tests test and why
 
