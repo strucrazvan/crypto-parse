@@ -1,70 +1,45 @@
 # Project Title
 
-Crypto Coin crawler for getting data from CoinMarket.com, and in future other websites
+Crypto Coin crawler for getting data from CoinMarketCap.com, and in future other websites
 ## Getting Started
 
 1. PHP 5.3.x is required
-2. Install coin-parser using Composer(recommended) or manually
+2. Install crypto-parser using Composer(recommended) or manually
 
 ### Installing
 
 
     1. Get Composer
-    2. Require Klein with php composer.phar require klein/klein
-    3. Add the following to your application's main PHP file: require 'vendor/autoload.php';
+    2. Require Crypto-parse with php composer.phar require strucrazvan/crypto-parse
 
 
-## Running the tests
 
-Explain how to run the automated tests for this system
 
 ### Break down into end to end tests
 
 Explain what these tests test and why
 
 ```
-Give an example
+require("Coin.php");
+$coin = new Coin();
+$data = $coin->getData("Market Cap - Top 100"); //Get top 100 coins from coinmarketcap.com
+#coin->uploadData("Market Cap - Top 100"); //inserts data into a database with name, volume, price, create your config file before working with it
 ```
 
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+Please contribute as much as you can
 
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **STRUC Razvan** - *Programming* - [PurpleBooth](https://github.com/strucrazvan)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/strucrazvan/crypto-parse/contributors) who participated in this project.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the DBAD License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
 
